@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>CodePen - Responsive Navigation Menu with Search Bar</title>
+   <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,600&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+
+   <header class="header" id="header">
+      <nav class="navbar container">
+         <a href="./index.html" class="brand">REDLIST</a>
+         <div class="burger" id="burger">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+         </div>
+         <span class="overlay"></span>
+         <div class="menu" id="menu">
+            <ul class="menu-inner">
+               <li class="menu-item"><a class="menu-link" href="#">Animals</a></li>
+               <li class="menu-item"><a class="menu-link" href="#">About</a></li>
+               <li class="menu-item"><a class="menu-link" href="#">News</a></li>
+               <li class="menu-item"><a class="menu-link" href="#">Take Action</a></li>
+            </ul>
+         </div>
+         <button><i class="bx bx-search search-toggle"></i></button>
+         <form class="search-block">
+            <span><i class="bx bx-arrow-back search-cancel"></i></span>
+            <input type="search" name="search" class="search-input" placeholder="Search here..." autofocus>
+         </form>
+      </nav>
+   </header>
+</body>
+
+<!-- JS -->
+<script src="./js/script.js"></script>
+
+</html>
