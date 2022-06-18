@@ -9,15 +9,17 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
       rel="stylesheet">
 </head>
 
 <body>
-
+   <!-- =============================================================================
+   ============================navbar======================================
+ ============================================================================= -->
    <header class="header" id="header">
       <nav class="navbar container">
-         <a href="./index.html" class="brand">REDLIST</a>
+         <a href="./index.html"><img src="images/redlist-logo.svg" class="logo"></a>
          <div class="burger" id="burger">
             <span class="burger-line"></span>
             <span class="burger-line"></span>
@@ -26,7 +28,7 @@
          <span class="overlay"></span>
          <div class="menu" id="menu">
             <ul class="menu-inner">
-               <li class="menu-item"><a class="menu-link" href="#">Animals</a></li>
+               <li class="menu-item"><a class="menu-link menu-link-current" href="#">Animals</a></li>
                <li class="menu-item"><a class="menu-link" href="#">About</a></li>
                <li class="menu-item"><a class="menu-link" href="#">News</a></li>
                <li class="menu-item"><a class="menu-link" href="#">Take Action</a></li>
@@ -39,7 +41,240 @@
          </form>
       </nav>
    </header>
+   <!-- =============================================================================
+   ============================navbar closed======================================
+ ============================================================================= -->
+
+   <div class="breadcrumb container">
+      <a href="" class="bc-item"> Animals /</a>
+      <a href="" class="bc-item"> Mammals /</a>
+      <a href="" class="bc-item bc-item-current"> Black Rhino</p></a>
+   </div>
+
+   <div class="container">
+      <!--================== Animal Details Section ================== -->
+      <section class="animal-overview">
+         <div class="animal-title">
+            <h1 class="Animal"> Black Rhino</h1>
+            <p class="body-text"> Diceros bicornis</p>
+         </div>
+         <div class="grid grid-detailpage">
+            <!-- LEFT -->
+            <div class="animal-image-card margin-bottom round-corner white-bg dropshadow">
+               <img src="images/detailpage/black-rhino.jpg" class="img-animal round-corner-top">
+               <div class="box-spacing">
+                  <div class="flex">
+                     <div>
+                        <p class="figure-description">Mature Individuals:</p>
+                        <p class="figure-individuals">3.142</p>
+                     </div>
+
+                     <div>
+                        <p class="figure-description">Population Trend:</p>
+                        <div class="development-indicator">
+                           <p class="development-indicator-text">▲ Increasing</p>
+                        </div>
+                     </div>
+                  </div>
+                  <p class="figure-description">Last Assessed: <strong> 14 January 2010 </strong></p>
+                  <p class="figure-description"> Assessment: <strong>GLOBAL </strong></p>
+               </div>
+            </div>
+            <!-- LEFT CLOSE -->
+            <!-- RIGHT -->
+            <!-- STATUS BOX -->
+            <div class="conservation-status margin-bottom box-spacing round-corner white-bg dropshadow">
+               <h4>Conservation Status</h4>
+               <h4> Critically Endangered<h4>
+                     <ul class="conservation-scale">
+                        <li class="conservation-li-item">DD</li>
+                        <li class="conservation-li-item">LC</li>
+                        <li class="conservation-li-item">NT</li>
+                        <li class="conservation-li-item">VU</li>
+                        <li class="conservation-li-item">EN</li>
+                        <li class="conservation-li-item li-active">CR</li>
+                        <li class="conservation-li-item">EW</li>
+                        <li class="conservation-li-item">EX</li>
+                     </ul>
+                     <div class="flex scale-caption">
+                        <p>Least Concern</p>
+                        <p>Extinct</p>
+                     </div>
+            </div>
+            <!-- STATUS BOX close-->
+            <!-- ICON BOX -->
+            <!-- icon box left -->
+            <div class="animal-fact-box flex box-spacing white-bg round-corner dropshadow">
+               <div class="col1" >
+                  <div class="flex">
+                     <img src="images/icons/size.svg">
+                     <div>
+                        <p class="figure-description">
+                           size:
+                        </p>
+                        <p>
+                           140-180cm
+                        </p>
+                     </div>
+                  </div>
+                  <div class="flex">
+                     <img src="images/icons/size.svg">
+                     <div>
+                        <p class="figure-description">
+                           weight:
+                        </p>
+                        <p>
+                           1500kg
+                        </p>
+                     </div>
+                  </div>
+                  <div class="flex">
+                     <img src="images/icons/size.svg">
+                     <div>
+                        <p class="figure-description">
+                           social behavior:
+                        </p>
+                        <p>
+                           Solitary
+                        </p>
+                     </div>
+                  </div>
+                  <div class="flex">
+                     <img src="images/icons/size.svg">
+                     <div>
+                        <p class="figure-description">
+                           top speed:
+                        </p>
+                        <p>
+                           30-49KM/H
+                        </p>
+                     </div>
+                  </div>
+
+
+               </div>
+
+               <!-- icon box left close -->
+               <!-- icon box right  -->
+               <div class="col2">
+                  <div class="flex">
+                     <img src="images/icons/size.svg">
+                     <div>
+                        <p class="figure-description">
+                           size:
+                        </p>
+                        <p>
+                           140-180cm
+                        </p>
+                     </div>
+                  </div>
+                  <div class="flex">
+                     <img src="images/icons/size.svg">
+                     <div>
+                        <p class="figure-description">
+                           weight:
+                        </p>
+                        <p>
+                           1500kg
+                        </p>
+                     </div>
+                  </div>
+                  <div class="flex">
+                     <img src="images/icons/size.svg">
+                     <div>
+                        <p class="figure-description">
+                           social behavior:
+                        </p>
+                        <p>
+                           Solitary
+                        </p>
+                     </div>
+                  </div>
+                  <div class="flex">
+                     <img src="images/icons/size.svg">
+                     <div>
+                        <p class="figure-description">
+                           top speed:
+                        </p>
+                        <p>
+                           30-49KM/H
+                        </p>
+                     </div>
+                  </div>
+
+
+               </div>
+               <!-- icon box right close -->
+
+               <!-- ICON BOX close -->
+               <!-- RIGHT CLOSE -->
+            </div>
+
+         </div>
+      </section>
+   </div>
+   <div class="bg-change round-corner-top">
+      <div class="container">
+         <!--================== Animal Details Section Closed================== -->
+         <section class="animal-population round-corner-top white-bg">
+            <div class="container">
+               <h2>Population growth</h2>
+               <img src="images/detailpage/population-graph.svg">
+               <div class="flex-dsk">
+                  <div class="col1">
+                     <p class="figure-description">Continuous decline of mature individuals</p>
+                     <p class="body-text body-text-uppercase body-text-color">No</p>
+                     <p class="figure-description">Population severely fragmented</p>
+                     <p class="body-text body-text-uppercase body-text-color">No</p>
+                     <p class="body-text">Throughout most of the 20th century, the Black Rhino was the most numerous of
+                        the
+                        world's rhino species. Relentless hunting of the species and clearances of land for settlement
+                        and
+                        agriculture reduced numbers and by 1960 only an estimated 100,000 remained. </p>
+                  </div>
+                  <div  class="col2">
+                     <p class="body-text">NBetween 1960 and 1995, large-scale poaching caused a dramatic 98% collapse in
+                        numbers with numbers bottoming out in the mid 1990s. Over this period numbers only increased in
+                        South Africa and Namibia (Emslie and Brooks 1999). From 1992–1997 total numbers remained
+                        relatively
+                        stable with increases in some countries (those with the best-protected and managed populations)
+                        being cancelled out by declines in others. However, since the lows of the mid-1990s, Black Rhino
+                        numbers at a continental level have more than doubled reaching and estimated 5,495 by end 2017
+                        (Emslie et al. 2019) and 5,630 by end 2018 (Knight 2019). Figure 1 in the attached Supplementary
+                        Information documentation shows how estimated total numbers of Black Rhino have changed over the
+                        last three-generations based on best estimates of rhino numbers per subspecies per country per
+                        year
+                        going back three-generations to 1973.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="animal-habitat">
+         </section>
+         <section class="animal-taxonomy">
+         </section>
+         <section class="animal-bibliography">
+         </section>
+         <section class="animal-family">
+         </section>
+      </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
 </body>
+
+
+
+
+
 
 <!-- JS -->
 <script src="./js/script.js"></script>

@@ -1,0 +1,77 @@
+.flex {
+    display: flex;
+}
+
+
+.scale-caption {
+    justify-content: space-between;
+}
+
+/* Stage Section */
+.margin-bottom {
+    margin-bottom: 1.5em;
+}
+
+/* Population Section */
+
+.animal-population {
+    margin-top: 4em;
+    padding: 4em 0;
+    ;
+}
+
+.development-indicator {
+    background-color: var(--color-palegreen);
+    color: var(--color-darkgreen);
+    font-weight: 700;
+    padding: .5em 1em;
+    letter-spacing: .5px;
+    border-radius: 2em;
+    margin-top: .5em;
+}
+
+/* grid styles */
+@media (min-width: 800px) {
+
+    .grid {
+        display: grid;
+
+    }
+
+    .grid-detailpage {
+        grid-template: 1fr 1fr / 1fr 1fr;
+        grid-template-areas:
+            " animal-image-card conservation-status"
+            " animal-image-card animal-fact-box";
+        gap: 1em;
+
+    }
+
+    .animal-image-card {
+        grid-area: animal-image-card;
+    }
+
+    .conservation-status {
+        grid-area: conservation-status;
+    }
+
+    .animal-fact-box {
+        grid-area: animal-fact-box;
+    }
+
+    .margin-bottom {
+        margin-bottom: 0em;
+    }
+    .flex-dsk {
+        display: flex;
+        justify-content: space-between;
+        margin: 1em 0;
+    }
+   .col1 {
+       width:48%;
+   }
+   .col2 {
+    width:48%;
+}
+}
+
