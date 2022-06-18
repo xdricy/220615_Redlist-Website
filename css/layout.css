@@ -8,9 +8,15 @@
 }
 
 /* Stage Section */
-.margin-bottom {
-    margin-bottom: 1.5em;
+.conservation-status {
+    margin-top: 2em;
 }
+
+.animal-fact-box {
+    margin-top: 2em;
+}
+
+
 
 /* Population Section */
 
@@ -43,8 +49,20 @@
         grid-template-areas:
             " animal-image-card conservation-status"
             " animal-image-card animal-fact-box";
-        gap: 1em;
+        gap: 1.5em;
 
+    }
+
+    .animal-image-card {
+        margin-top: 0em;
+    }
+
+    .conservation-status {
+        margin-top: 0em;
+    }
+
+    .animal-fact-box {
+        margin-top: 0em;
     }
 
     .animal-image-card {
@@ -53,25 +71,25 @@
 
     .conservation-status {
         grid-area: conservation-status;
+
     }
 
     .animal-fact-box {
         grid-area: animal-fact-box;
     }
 
-    .margin-bottom {
-        margin-bottom: 0em;
-    }
+
     .flex-dsk {
         display: flex;
         justify-content: space-between;
         margin: 1em 0;
     }
-   .col1 {
-       width:48%;
-   }
-   .col2 {
-    width:48%;
-}
-}
 
+    .col1 {
+        width: 48%;
+    }
+
+    .col2 {
+        width: 48%;
+    }
+}

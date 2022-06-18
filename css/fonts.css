@@ -42,7 +42,7 @@ h1 {
 }
 
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
     h1 {
         font-size: .5rem;
     }
@@ -50,4 +50,4 @@ h1 {
     .figure-individuals {
         font-size: 1.9rem;
     }
-}
+} */
