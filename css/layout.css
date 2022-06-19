@@ -3,11 +3,14 @@
 }
 
 
-.scale-caption {
-    justify-content: space-between;
-}
-
 /* Stage Section */
+
+.margin-top{
+    margin-top: 2em;
+}
+.margin-right{
+    margin-right: 1.5em;
+}
 .conservation-status {
     margin-top: 2em;
 }
@@ -29,7 +32,7 @@
 
 
 /* grid styles */
-@media (min-width: 800px) {
+@media (min-width: 900px) {
 
     .grid {
         display: grid;
@@ -84,4 +87,6 @@
     .col2 {
         width: 48%;
     }
+
+    
 }

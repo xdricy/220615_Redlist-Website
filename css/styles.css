@@ -2,7 +2,6 @@
 @import url(fonts.css);
 @import url(media.css);
 @import url(layout.css);
-@import url(scale.css);
 @import url(color.css);
 
 *,
@@ -42,6 +41,13 @@ button {
     height: auto;
     padding: 0 1.25rem;
 }
+.nav-container {
+    
+    max-width: 1250px;
+    margin: 0 auto;
+    padding:  1.25rem;
+ 
+}
 
 .bg-change {
     background-color: white;
@@ -66,6 +72,6 @@ button {
 }
 
 .box-spacing {
-    padding: 1.5em;
+    padding: 2rem;
 
 }

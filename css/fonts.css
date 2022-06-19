@@ -1,12 +1,13 @@
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Source Sans Pro', sans-serif; */
 
-body,p {
+body,
+p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     line-height: 1.5;
     font-size: 1.25rem;
-  
+
 
 }
 
@@ -14,6 +15,7 @@ body {
     background-color: var(--color-white);
     color: var(--color-black);
 }
+
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -55,6 +57,17 @@ h4 {
 .uppercase {
     text-transform: uppercase;
 }
+.latin-name{
+    margin-bottom: 1em;
+}
+.breadcrumb {
+    margin: 2em auto;
+
+}
+
+.breadcrumb a {
+    font-size: 1rem;
+}
 
 .animal-image-card {
     color: var(--color-grey4);
@@ -65,12 +78,23 @@ h4 {
     background-color: var(--color-palegreen);
     color: var(--color-darkgreen);
 
-    padding: .5em 1em;
+    padding: .5rem 1rem;
     letter-spacing: .5px;
-    border-radius: 2em;
+    border-radius: 5em;
     margin-top: .5em;
+    white-space: nowrap;
 }
 
 .development-indicator p {
     font-weight: 700;
+}
+
+@media (max-width:900px) {
+    body {
+        font-size: .5rem;
+    }
+
+    .box-spacing {
+        padding: 4em;
+    }
 }

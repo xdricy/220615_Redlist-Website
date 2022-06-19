@@ -10,7 +10,7 @@
     height: auto;
     z-index: 10;
     margin: 0 auto;
-    padding: 1.5em;
+    padding: 1em;
     background: var(--color-white);
     
 }
@@ -212,7 +212,6 @@
 /* Breadcrumb navigation */
 
 .bc-item {
-    margin-top: 1em;
     margin-right: .25em;
     font-family: inherit;
     color: var(--color-grey4)
@@ -223,4 +222,5 @@ color: var(--color-mainred)
 .bc-item-current {
     color: var(--color-black);
     font-weight: 600;
+    margin:0
 }
