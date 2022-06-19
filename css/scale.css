@@ -1,7 +1,8 @@
 /* dotted line */
 
 
-.conservation-li-item {
+/* .conservation-li-item {
+    font-size: 1.25rem;
     width: 2.5em;
     height: 2.5em;
     text-align: center;
@@ -36,4 +37,38 @@ background-color: var(--color-mainred);
    color: var(--color-white);
    border: var(--color-mainred) 2px solid;
   
-}
+} */
+
+.conservation-scale {
+    text-align: justify;
+    position: relative;
+    overflow: hidden;
+  }
+  .conservation-scale:before, .active:after {
+    content: '';
+    width: 100%;
+    border: 2px solid var(--color-grey4);
+    position: absolute;
+    top: 1em;
+    margin-top: -2px;
+    z-index: -1;
+  }
+ 
+  .conservation-scale:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+  .conservation-li-item {
+    font-size: 1rem;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 50%;
+    background: var(--color-white);
+    margin: 0 1em;
+    display: inline-block;
+    color: var(--color-black);
+    border: 3px solid var(--color-grey4);
+  }

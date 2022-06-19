@@ -1,16 +1,19 @@
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Source Sans Pro', sans-serif; */
 
-body {
+body,p {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: var(--color-black);
-    background-color: var(--color-white);
+    font-size: 1.25rem;
+  
+
 }
 
-
+body {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -19,6 +22,23 @@ h1 {
 
 }
 
+h2,
+h3 {
+    font-size: 2.441rem;
+}
+
+h4 {
+    font-size: 1.953rem;
+}
+
+
+.text-colored {
+    color: var(--color-mainred)
+}
+
+.body-text-small {
+    font-size: 1rem;
+}
 
 .body-text {
     font-size: 1.25rem;
@@ -41,13 +61,16 @@ h1 {
     letter-spacing: .4px;
 }
 
+.development-indicator {
+    background-color: var(--color-palegreen);
+    color: var(--color-darkgreen);
 
-/* @media (max-width: 800px) {
-    h1 {
-        font-size: .5rem;
-    }
+    padding: .5em 1em;
+    letter-spacing: .5px;
+    border-radius: 2em;
+    margin-top: .5em;
+}
 
-    .figure-individuals {
-        font-size: 1.9rem;
-    }
-} */
+.development-indicator p {
+    font-weight: 700;
+}

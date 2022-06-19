@@ -26,15 +26,7 @@
     ;
 }
 
-.development-indicator {
-    background-color: var(--color-palegreen);
-    color: var(--color-darkgreen);
-    font-weight: 700;
-    padding: .5em 1em;
-    letter-spacing: .5px;
-    border-radius: 2em;
-    margin-top: .5em;
-}
+
 
 /* grid styles */
 @media (min-width: 800px) {
