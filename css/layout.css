@@ -9,7 +9,7 @@
     margin-top: 2em;
 }
 .margin-right{
-    margin-right: 1.5em;
+    margin-right: 2rem;
 }
 .conservation-status {
     margin-top: 2em;
@@ -87,6 +87,11 @@
     .col2 {
         width: 48%;
     }
+}
 
-    
+
+@media (max-width: 600px){
+    .animal-fact-box {
+        flex-direction: column;
+    }
 }

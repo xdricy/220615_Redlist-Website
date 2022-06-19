@@ -33,7 +33,9 @@ h4 {
     font-size: 1.953rem;
 }
 
-
+.section-heading{
+    margin-bottom: 2em;
+}
 .text-colored {
     color: var(--color-mainred)
 }
@@ -54,8 +56,11 @@ h4 {
     color: var(--color-black);
 }
 
-.uppercase {
+.body-text-uppercase {
     text-transform: uppercase;
+}
+.body-text-color {
+    color: var(--color-mainred)
 }
 .latin-name{
     margin-bottom: 1em;
@@ -85,15 +90,24 @@ h4 {
     white-space: nowrap;
 }
 
-.development-indicator p {
+.development-indicator-text{
     font-weight: 700;
+    font-size: inherit;
 }
 
 @media (max-width:900px) {
-    body {
-        font-size: .5rem;
+    body, .figure-description,.body-text{
+        font-size: 1rem;
     }
-
+    h1 {
+        font-size: 2.438rem;
+    }
+    h2,h3,.figure-individuals {
+        font-size: 1.5rem;
+    }
+h4{
+    font-size: 1.25rem;
+}
     .box-spacing {
         padding: 4em;
     }

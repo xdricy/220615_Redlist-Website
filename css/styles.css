@@ -75,3 +75,15 @@ button {
     padding: 2rem;
 
 }
+
+ .animal-fact-box {
+    display: flex;
+}
+
+.icon-box {
+margin-right: 2em;
+}
+.icon-description {
+    padding-left: 2em;
+    white-space: nowrap;
+}
