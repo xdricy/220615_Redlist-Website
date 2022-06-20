@@ -5,12 +5,14 @@
 
 /* Stage Section */
 
-.margin-top{
+.margin-top {
     margin-top: 2em;
 }
-.margin-right{
+
+.margin-right {
     margin-right: 2rem;
 }
+
 .conservation-status {
     margin-top: 2em;
 }
@@ -23,6 +25,7 @@
 section {
     margin-bottom: 6em;
 }
+
 /* Population Section */
 
 .animal-population {
@@ -90,8 +93,65 @@ section {
     }
 }
 
+/* footer */
+.footer {
+    background: #000;
+    padding: .5em 0px;
+    font-family: inherit;
+    text-align: center;
+}
 
-@media (max-width: 600px){
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: .5% 0%;
+    color: var(--color-white);
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: var(--color-white);
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: var(--color-mainred);
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 2% 4%;
+}
+
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 600px) {
     .animal-fact-box {
         flex-direction: column;
     }

@@ -11,6 +11,8 @@
    <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
       rel="stylesheet">
+      <!-- Font Awesome Links -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -262,7 +264,7 @@
          </div>
 
          <button class="accordion">Habitat</button>
-         <div class="panel margin-top">
+         <div class="panel">
             <!-- ================== HABITAT ================== -->
             <section class="animal-habitat white-bg">
                <div class="container">
@@ -305,8 +307,8 @@
             <!-- ================== HABITAT CLOSED ================== -->
          </div>
 
-         <button class="accordion">Taxonomy & Threats, Use and Trade</button>
-         <div class="panel margin-top">
+         <button class="accordion">Taxonomy / Threats / Use and Trade</button>
+         <div class="panel">
             <!-- ================== TREATS & USE  ================== -->
             <section class="animal-taxonomy white-bg">
                <div class="container">
@@ -382,7 +384,7 @@
 
          </div>
          <button class="accordion">Bibliography</button>
-         <div class="panel margin-top">
+         <div class="panel">
             <p>Benson, C. W. 1960. The birds of the Comoro Islands: results of the British Ornithologists' Union
                Centenary Expedition 1958. Ibis 103b: 5-106.
 
@@ -412,8 +414,71 @@
                Mayotte (Indian Ocean). Alauda 67: 123-139.</p>
 
          </div>
+         <div class="animal-card-grid">
+
+            <!-- Animal CARD 1 -->
+            <div class="animal-card">
+               <div class="animal-card-text" ->
+                  <p>Mammalia</p>
+                  <h4>Elasmotherium</h4>
+                  <p>Ailurus fulgens</p>
+               </div>
+               <div class="animal-card-content">
+                  <img src="images/detailpage/elasmotherium.jpg">
+                  <div class="animal-card-caption">
+                     <div class="status-circle">EX</div>
+                     <div class="development-indicator development-indicator-negative">
+                        <p class="development-indicator-text"> ▼ Decreasing</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Animal CARD 2 -->
+            <div class="animal-card">
+               <div class="animal-card-text" ->
+                  <p>Mammalia</p>
+                  <h4>Elasmotherium</h4>
+                  <p>Ailurus fulgens</p>
+               </div>
+               <div class="animal-card-content">
+                  <img src="images/detailpage/elasmotherium.jpg">
+                  <div class="animal-card-caption">
+                  <div class="status-circle">EX</div>
+                  <div class="development-indicator development-indicator-negative">
+                     <p class="development-indicator-text"> ▼ Decreasing</p>
+                  </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
    </div>
+
+   <footer>
+      <div class="footer">
+      <div class="row">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      </div>
+      
+      <div class="row">
+      <ul>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms & Conditions</a></li>
+
+      </ul>
+      </div>
+      
+      <div class="row">
+      REDLIST © 2022  - All rights reserved 
+      </div>
+      </div>
+      </footer>
+      
+      
 
 
 
@@ -434,30 +499,9 @@
 <!-- JS -->
 <script src="./js/script.js"></script>
 <style>
-   .panel {
-      padding: 0 18px;
-      background-color: white;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-out;
-   }
+
 </style>
 
-<script>
-   var acc = document.getElementsByClassName("accordion");
-   var i;
 
-   for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function () {
-         this.classList.toggle("active");
-         var panel = this.nextElementSibling;
-         if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-         } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
-         }
-      });
-   }
-</script>
 
 </html>

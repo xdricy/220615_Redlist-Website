@@ -1,44 +1,47 @@
-/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    margin-top: 1em;
     font-family: inherit;
-    font-size: 2.441rem;
+    font-size: 1.941rem;
     font-weight: 700;
-    background-color:var(--color-white);
+    background-color: var(--color-white);
     color: var(--color-black);
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    text-align: left;
     border: none;
+    text-align: left;
     outline: none;
     transition: 0.4s;
   }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .accordion, .panel {
+      margin-top:2em;
+  }
   .active, .accordion:hover {
-    background-color:  var(--color-grey2);
+    background-color:var(--color-grey2);
     border-radius: 20px;
   }
   
-  /* Style the accordion panel. Note: hidden by default */
-  .panel {
-    
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-  }
-
-
   .accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 2.441rem;
-    color: var(--color-grey2);
+    content: '\002B';
+    color: var(--color-black);
+    font-weight: 700;
     float: right;
     margin-left: 5px;
   }
   
   .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: var(--color-white);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  @media (max-width: 800px) {
+    .accordion{
+      font-size: 1rem;
+      }
   }
