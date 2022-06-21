@@ -9,8 +9,8 @@
 padding: 3em 1em 8em;
 }
 
-.animal-card-img {
-    max-width: 100%;
+.animal-card img {
+    width: 100%;
 }
 
 .animal-card {

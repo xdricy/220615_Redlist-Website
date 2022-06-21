@@ -40,6 +40,22 @@
     transition: max-height 0.2s ease-out;
   }
 
+
+  @media (min-width: 800px) {
+
+    .init-show{
+      pointer-events: none;
+    }
+
+    .init-show:after{
+      display: none;
+    }
+
+    .init-show + .panel {
+      max-height: none;
+    }
+  }
+
   @media (max-width: 800px) {
     .accordion{
       font-size: 1rem;

@@ -37,7 +37,6 @@
     background: var(--color-white);
     box-shadow: var(--shadow-medium);
     transition: all 0.45s ease-in-out;
-
 }
 
 .menu.is-active {
