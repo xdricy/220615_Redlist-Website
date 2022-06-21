@@ -11,61 +11,206 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
         rel="stylesheet">
+    <!-- Font Awesome Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body class="container">
-    <div class=>
-        <section class="step-indicator">
-            <div class="step step1 ">
-                <div class="step-icon">DD</div>
-                <p>Least concern</p>
-            </div>
-            <div class="indicator-line"></div>
-            <div class="step step2">
-                <div class="step-icon">LC</div>
-            </div>
-            <div class="indicator-line"></div>
-            <div class="step step3">
-                <div class="step-icon">NT</div>
-            </div>
-            <div class="indicator-line"></div>
-            <div class="step step4">
-                <div class="step-icon">VU</div>
-            </div>
-            <div class="indicator-line"></div>
-            <div class="step step5">
-                <div class="step-icon">EN</div>
-            </div>
-            <div class="indicator-line"></div>
-            <div class="step step6 active-scale">
-                <div class="step-icon ">CR</div>
-            </div>
-            <div class="indicator-line"></div>
-            <div class="step step7">
-                <div class="step-icon">EW</div>
+<!-- =============================================================================
+   ============================navbar======================================
+ ============================================================================= -->
+<header class="header" id="header">
+    <nav class="navbar container">
+        <a href="./index.html"><img src="images/redlist-logo.svg" class="logo"></a>
+        <div class="burger" id="burger">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </div>
+        <span class="overlay"></span>
+        <div class="menu" id="menu">
+            <ul class="menu-inner">
+                <li class="menu-item"><a class="menu-link menu-link-current" href="#">Animals</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">About</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">News</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">Take Action</a></li>
+            </ul>
+        </div>
+        <button><i class="bx bx-search search-toggle"></i></button>
+        <form class="search-block">
+            <span><i class="bx bx-arrow-back search-cancel"></i></span>
+            <input type="search" name="search" class="search-input" placeholder="Search here..." autofocus>
+        </form>
+    </nav>
+</header>
+<!-- =============================================================================
+ ============================navbar closed======================================
+============================================================================= -->
 
-            </div>
-            <div class="indicator-line"></div>
-            <div class="step step8">
-                <div class="step-icon">EX</div>
-                <p>Extinct</p>
-            </div>
 
-        </section>
-        <section class="scale-section">
-            <div class="scale-content-wrapper">
-                <div class="scale-content">
-                    <h4 class="scale-title"> Critically Endangered</h4>
-                    <p class="scale-content"> when it has been evaluated against the criteria but does not qualify for
-                        Critically Endangered,
-                        Endangered or Vulnerable now, but is close to qualifying for or is likely to qualify for a
-                        threatened
-                        category in the near future.</p>
-                </div>
-            </div>
-        </section>
-
+<!-- <section class="step-indicator">
+    <div class="step">
+        <div class="step-icon">DD</div>
+      <p>Least concern</p>
     </div>
+  <div class="indicator-line"></div>
+  <div class="step">
+      <div class="step-icon">LC</div>
+  </div>
+  <div class="indicator-line"></div>
+  <div class="step step3">
+      <div class="step-icon">NT</div>
+  </div>
+</section> -->
+
+<body>
+    <main class="container">
+        <section class="step-indicator">
+            <div class="step">
+                <a href="#DD" data-tab="DD" class="b-nav-tab step-icon active-scale">DD
+                </a>
+            </div>
+            <div class="indicator-line"></div>
+            <div class="step">
+                <a href="#LC" data-tab="LC" class="b-nav-tab step-icon">
+                    LC
+                </a>
+            </div>
+            <div class="indicator-line"></div>
+            <div class="step">
+                <a href="#NT" data-tab="NT" class="b-nav-tab step-icon">
+                    NT
+                </a>
+            </div>
+            <div class="indicator-line"></div>
+            <div class="step">
+                <a href="#VU" data-tab="VU" class="b-nav-tab step-icon">
+                    VU
+                </a>
+            </div>
+            <div class="indicator-line"></div>
+            <div class="step">
+                <a href="#EN" data-tab="EN" class="b-nav-tab step-icon">
+                    EN
+                </a>
+            </div>
+            <div class="indicator-line"></div>
+            <div class="step">
+                <a href="#CR" data-tab="CR" class="b-nav-tab step-icon">
+                    CR
+                </a>
+            </div>
+            <div class="indicator-line"></div>
+            <div class="step">
+                <a href="#EW" data-tab="EW" class="b-nav-tab step-icon">
+                    EW
+                </a>
+            </div>
+            <div class="indicator-line"></div>
+            <div class="step">
+                <a href="#EX" data-tab="EX" class="b-nav-tab step-icon">
+                    EX
+                </a>
+            </div>
+
+
+        </section>
+        <div id="DD" class="b-tab active-scale">
+            <h4>Data Deficient</h4>
+            A taxon is Data Deficient (DD) when there is inadequate information to
+            make a direct, or indirect, assessment of its risk of extinction based on
+            its distribution and/or population status. A taxon in this category may be
+            well studied, and its biology well known, but appropriate data on
+            abundance and/or distribution are lacking.
+        </div>
+        <div id="LC" class="b-tab">
+            <h4>Least Concern</h4>
+            A taxon is Least Concern (LC) when it has been evaluated against the
+            Red List criteria and does not qualify for Critically Endangered,
+            Endangered, Vulnerable or Near Threatened.
+        </div>
+        <div id="NT" class="b-tab">
+            <h4>Near Threatened</h4>
+            A taxon is Near Threatened (NT) when it has been evaluated against
+            the criteria but does not qualify for Critically Endangered,
+            Endangered or Vulnerable now, but is close to qualifying for or is likely
+            to quality Tor a threatened category in the near ruture
+        </div>
+        <div id="VU" class="b-tab">
+            <h4>Vulnerable</h4>
+            A taxon is Vulnerable (l) when the best available evidence indicates
+            that it meets any of the criteria A to E for Vulnerable, and it is therefore
+            Considered to De Tacing a nign risk or extinction In the wild
+
+        </div>
+        <div id="EN" class="b-tab">
+            <h4>Endangered</h4>
+
+            when it has been evaluated against the criteria but does not qualify for Critically Endangered, Endangered
+            or Vulnerable now, but is close to qualifying for or is likely to qualify for a threatened category in the
+            near future.
+
+        </div>
+        <div id="CR" class="b-tab">
+            <h4>Critically Endangered</h4>
+            A taxon is Critically Endangered (CR) when the best available
+            evidence indicates that it meets any of the criteria A to E for Critically
+            Endangered, and it is therefore considered to be facing an extremely high
+            risk of extinction in the wild
+
+        </div>
+        <div id="EW" class="b-tab">
+            <h4>Extinct in the Wild</h4>
+            A taxon IS Extinct In The Wild (EW) When It IS known onlv to survive In
+            cultivation, In captivity or as a naturalized population (or populations
+            well outside the past range. A taxon is presumed Extinct In the Wild
+            When exhaustive Surveys In Known and/or expected habitat, at
+            appropriate times (diurnal, seasonal, annual), throughout its historic
+            range have ralled to record an individual. Surveys should be over a tim€
+            trame appropriate to the taxons life cvcle and life torm.
+
+        </div>
+        <div id="EX" class="b-tab">
+            <h4>Extinct in the wild</h4>
+            A taxon is Extinct (EX) when there is no reasonable doubt that the last
+            individual has died. A taxon Is presumed Extinct When exnaustive
+            surveys In Known and/or expected habitat, at appropriate times ( diurnal,
+            seasonal, annual), throughout its historic range have falled to record an
+            individual. surveys should be over a time trame appropriate to the
+            taxons life cvcle and life torm.
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+
+                </ul>
+            </div>
+
+            <div class="row">
+                REDLIST © 2022 - All rights reserved
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>
+
+
+<!-- JS -->
+<script src="./js/script.js"></script>
