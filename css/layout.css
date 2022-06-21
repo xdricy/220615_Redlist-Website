@@ -2,7 +2,11 @@
     display: flex;
 }
 
-
+.divider {
+    height: 2px;
+    background-color: var(--color-black);
+    margin-bottom: 1.5em;
+}
 /* Stage Section */
 
 .margin-top {
