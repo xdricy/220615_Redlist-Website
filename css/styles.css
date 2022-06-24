@@ -44,12 +44,13 @@ button {
     height: auto;
     padding: 0 1.25rem;
 }
+
 .nav-container {
-    
+
     max-width: 1250px;
     margin: 0 auto;
-    padding:  1.25rem;
- 
+    padding: 1.25rem;
+
 }
 
 .bg-change {
@@ -79,14 +80,70 @@ button {
 
 }
 
- .animal-fact-box {
+.animal-fact-box {
     display: flex;
 }
 
 .icon-box {
-margin-right: 2em;
+    margin-right: 2em;
 }
+
 .icon-description {
     padding-left: 2em;
     white-space: nowrap;
+}
+
+
+/* ===================== Button styles  ===================== */
+
+.btn {
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-black);
+    padding: 1em 2em;
+    border-radius: 30px;
+    font-family: inherit;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.btn-arrow {
+    filter: brightness(0) invert(1);
+}
+
+.btn-arrow-accent {
+    filter: brightness(0) invert(0);
+}
+
+.btn-accent {
+    background-color: var(--color-white);
+}
+
+.btn-accent {
+    color: var(--color-black);
+
+}
+
+.btn-arrow {
+    margin-left: 1.5em;
+    height: 12px;
+
+}
+
+.btn:hover {
+    background-color: var(--color-mainred);
+    color: var(--color-white);
+
+}
+
+.btn-accent:hover {
+    color: var(--color-white);
+}
+
+.btn:hover .btn-arrow {
+    filter: brightness(0) invert(1);
+}
+
+.btn:active {
+    background-color: var(--color-darkred);
 }

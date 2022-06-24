@@ -44,7 +44,24 @@ section {
     padding: 4em 0;
     ;
 }
+/* STAGE STYLES */
+.stage-wrapper{
 
+background-image: url("../video/stage-video.gif");
+background-color: var(--color-black);
+background-position: center;
+height:90vh;
+background-repeat: no-repeat;
+width: 100%;
+object-fit: contain ;
+z-index: -100;
+}
+.stage-content {
+    padding: 3em;
+    align-self: flex-end;
+    color: var(--color-white);
+    line-height: 300%;
+}
 
 
 /* grid styles */
