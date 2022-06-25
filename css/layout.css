@@ -48,7 +48,7 @@ section {
     ;
 }
 
-/* STAGE STYLES */
+/* ============================== INDEX STYLES ============================== */
 .stage-wrapper {
 
     background-image: url("../video/stage-video.gif");
@@ -87,6 +87,25 @@ margin-bottom: 2em;
 padding: 1.5em;
 }
 
+.link-centered {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+
+/* ABOUT US SECTION */
+
+.about-section {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+.flex-section-content {
+    padding: 2em;
+}
+
+
+/* ============================== INDEX STYLES CLOSED ============================== */
 /* grid styles */
 @media (min-width: 900px) {
 
@@ -103,7 +122,6 @@ padding: 1.5em;
         gap: 1.5em;
 
     }
-
 
     .animal-image-card {
         margin-top: 0em;
@@ -144,6 +162,7 @@ padding: 1.5em;
     .col2 {
         width: 48%;
     }
+
 }
 /* NEWS GRID MEDIA QUERY */
 @media (min-width: 200px) {
@@ -155,7 +174,21 @@ padding: 1.5em;
         margin-top: 2em;
         /* padding: 3em 1em 8em; */
     }
+
 }
+
+/* ABOUT US MEDIA QUERY */
+@media (min-width: 650px) {
+    /* ABOUT US */
+  .flex-section{
+    display: flex;
+    align-items: center;
+}
+.flex-section-img {
+    flex: 1 0 50%;
+}
+}
+  
 
 /* footer */
 .footer {
@@ -213,10 +246,12 @@ padding: 1.5em;
     .footer .row a i {
         margin-left: 0%;
     }
+
 }
 
 @media (max-width: 899px) {
     .animal-fact-box {
         flex-direction: column;
     }
+
 }
