@@ -3,7 +3,6 @@ img {
     object-fit: cover;
   max-width: 100%;
   height: auto;
-  object-fit: cover;
   image-rendering: -webkit-optimize-contrast;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
@@ -24,4 +23,7 @@ object-fit:contain;
   background: var(--color-black);
 }
 
+.img-full-width {
+  width: 100%;
+}
 

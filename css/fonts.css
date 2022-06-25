@@ -27,7 +27,7 @@ h1, h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1px;;
+    letter-spacing: 1px;
 }
 
 h2,
@@ -50,11 +50,7 @@ a:active {
     color: var(--color-darkred);
 }
 
-/* Special Styles */
-
-.section-heading {
-    margin-bottom: 2em;
-}
+/*  ============= Special Styles =============*/
 
 .text-colored {
     color: var(--color-mainred)
@@ -90,7 +86,6 @@ a:active {
 
 .breadcrumb {
     margin: 2em auto;
-
 }
 
 .breadcrumb a {
@@ -122,6 +117,8 @@ a:active {
     text-decoration: underline;
     text-underline-offset: 3px;
 }
+
+/* ============= Mobile Styles ============= */
 
     @media (max-width:900px) {
 

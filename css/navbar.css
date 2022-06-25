@@ -30,7 +30,7 @@
     position: fixed;
     top: 0;
     left: -100%;
-    width: 80%;
+    width: 50%;
     height: 100%;
     z-index: 10;
     overflow-y: auto;
@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 1.25rem;
-    margin: 2rem 1.25rem;
+    margin: 2rem 2.25rem;
 }
 
 .logo {
