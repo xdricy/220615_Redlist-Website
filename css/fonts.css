@@ -1,6 +1,7 @@
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Source Sans Pro', sans-serif; */
 
+/* ============== GENERAL STYLES  ============== */
 body,
 p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -34,9 +35,22 @@ h4 {
     margin-bottom: 1em;
 }
 
-.section-heading{
+a {
+    color: var(--color-black);
+}
+a:hover {
+    color: var(--color-mainred);
+}
+a:active {
+    color: var(--color-darkred);
+}
+
+/* Special Styles */
+
+.section-heading {
     margin-bottom: 2em;
 }
+
 .text-colored {
     color: var(--color-mainred)
 }
@@ -60,12 +74,15 @@ h4 {
 .body-text-uppercase {
     text-transform: uppercase;
 }
+
 .body-text-color {
     color: var(--color-mainred)
 }
-.latin-name{
+
+.latin-name {
     margin-bottom: 1em;
 }
+
 .breadcrumb {
     margin: 2em auto;
 
@@ -91,26 +108,46 @@ h4 {
     white-space: nowrap;
 }
 
-.development-indicator-text{
+.development-indicator-text {
     font-weight: 700;
     font-size: inherit;
 }
 
-@media (max-width:900px) {
-    body, .figure-description,.body-text{
-        font-size: 1rem;
-    }
-    h1 {
-        font-size: 2.438rem;
-    }
-    h2,h3,.figure-individuals {
-        font-size: 1.5rem;
-    }
+.newscard a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
 
-h4{
-    font-size: 1.25rem;
-}
-    .box-spacing {
-        padding: 4em;
+    @media (max-width:900px) {
+
+        body,
+        .figure-description,
+        .body-text {
+            font-size: 1rem;
+        }
+
+        h1 {
+            font-size: 2.438rem;
+        }
+
+        h2,
+        h3,
+        .figure-individuals {
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            font-size: 1.25rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+        .body-text-small {
+            font-size: .8rem;
+        }
+
+        .box-spacing {
+            padding: 4em;
+        }
+
     }
-}

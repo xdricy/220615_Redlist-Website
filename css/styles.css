@@ -97,6 +97,7 @@ button {
 /* ===================== Button styles  ===================== */
 
 .btn {
+    font-size: 1.25rem;
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-black);
@@ -146,4 +147,10 @@ button {
 
 .btn:active {
     background-color: var(--color-darkred);
+}
+
+@media (max-width: 900px) {
+    .btn {
+        font-size: 1rem;;
+    }
 }
