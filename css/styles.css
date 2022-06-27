@@ -49,6 +49,12 @@ section {
     padding: 0 1.25rem;
 }
 
+@media (min-width: 899px) {
+    .container {
+        padding: 0 3.25rem;
+    }
+}
+
 .nav-container {
 
     max-width: 1250px;
@@ -68,7 +74,7 @@ section {
 }
 
 .dropshadow {
-    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.6));
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.3));
 }
 
 .round-corner {
@@ -93,9 +99,15 @@ section {
 }
 
 .icon-description {
-    padding-left: 2em;
+    padding-left: 1em;
     white-space: nowrap;
 }
+
+.grid-overview .icon-description {
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}
+
 /* =============  BOX STYLES CLOSED ============= */
 
 /* ===================== BUTTON STYLES  ===================== */
@@ -155,9 +167,11 @@ section {
 
 @media (max-width: 900px) {
     .btn {
-        font-size: 1rem;;
+        font-size: 1rem;
+        ;
     }
 }
+
 /* ============= BUTTON STYLES CLOSED  ============= */
 
 
@@ -219,4 +233,5 @@ section {
     }
 
 }
+
 /* ============= FOOTER CLOSED ============= */

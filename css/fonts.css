@@ -50,6 +50,9 @@ a:active {
     color: var(--color-darkred);
 }
 
+.uppercase {
+    text-transform: uppercase;
+    }
 /*  ============= Special Styles =============*/
 
 .text-colored {
@@ -116,6 +119,12 @@ a:active {
 .newscard-wrapper a {
     text-decoration: underline;
     text-underline-offset: 3px;
+}
+
+
+.featured-animal-subheading {
+font-size: 1rem;
+font-weight: 700;
 }
 
 /* ============= Mobile Styles ============= */
