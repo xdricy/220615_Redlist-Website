@@ -159,21 +159,21 @@
 }
 
 .animal-1 {
-    background-image: url("../images/detailpage/black-rhino.jpg");
+    background-image: url("../images/overviewpage/porpoise.jpg");
     background-repeat: no-repeat;
 }
 
 .animal-2 {
-    background-image: url("../images/detailpage/black-rhino.jpg");
+    background-image: url("../images/overviewpage/bear.jpg");
 }
 
 .animal-3 {
-    background-image: url("../images/detailpage/black-rhino.jpg");
+    background-image: url("../images/overviewpage/flamingo.jpg");
     background-repeat: no-repeat;
 }
 
 .animal-mammals {
-    background-image: url("../images/detailpage/black-rhino.jpg");
+    background-image: url("../images/overviewpage-mammals/mountain-goat.jpg");
     background-repeat: no-repeat;
 }
 .animal-mammals {

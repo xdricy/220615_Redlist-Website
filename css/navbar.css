@@ -12,6 +12,7 @@
     margin: 0 auto;
     padding: 1em;
     background: var(--color-white);
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.2));
     
 }
 
