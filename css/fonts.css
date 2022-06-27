@@ -93,7 +93,7 @@ a:active {
 }
 
 .animal-image-card {
-    color: var(--color-grey4);
+    color: var(--color-black);
     letter-spacing: .4px;
 }
 
