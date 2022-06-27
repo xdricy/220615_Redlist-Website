@@ -1,11 +1,11 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="10.0771" y="9.14258" width="11.8461" height="17.1429" rx="5.92304" stroke="black" stroke-width="2"/>
-<path d="M10.077 21.1445V21.1445C8.20772 21.1445 6.69238 22.6599 6.69238 24.5291V28.0017" stroke="black" stroke-width="2"/>
-<path d="M21.923 21.1445V21.1445C23.7923 21.1445 25.3076 22.6599 25.3076 24.5291V28.0017" stroke="black" stroke-width="2"/>
-<path d="M21.923 14.2871V14.2871C23.7923 14.2871 25.3076 12.7718 25.3076 10.9025V7.42996" stroke="black" stroke-width="2"/>
-<path d="M10.077 14.2871V14.2871C8.20772 14.2871 6.69238 12.7718 6.69238 10.9025V7.42996" stroke="black" stroke-width="2"/>
-<path d="M9.23074 17.7148H5" stroke="black" stroke-width="2"/>
-<path d="M27.0003 17.7148H22.7695" stroke="black" stroke-width="2"/>
-<path d="M10.0771 14.2871H16.0002M21.9232 14.2871H16.0002M16.0002 14.2871V26.2871" stroke="black" stroke-width="2"/>
-<path d="M20.231 4V5.71429V5.71429C20.231 7.60784 18.696 9.14286 16.8024 9.14286H15.1981C13.3046 9.14286 11.7695 7.60784 11.7695 5.71429V5.71429V4" stroke="black" stroke-width="2"/>
+<svg width="26" height="28" viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="6" y="6" width="14" height="20" rx="7" stroke="#0E1011" stroke-width="2"/>
+<path d="M6 20V20C3.79086 20 2 21.7909 2 24V28" stroke="#0E1011" stroke-width="2"/>
+<path d="M20 20V20C22.2091 20 24 21.7909 24 24V28" stroke="#0E1011" stroke-width="2"/>
+<path d="M20 12V12C22.2091 12 24 10.2091 24 8V4" stroke="#0E1011" stroke-width="2"/>
+<path d="M6 12V12C3.79086 12 2 10.2091 2 8V4" stroke="#0E1011" stroke-width="2"/>
+<path d="M5 16H0" stroke="#0E1011" stroke-width="2"/>
+<path d="M26 16H21" stroke="#0E1011" stroke-width="2"/>
+<path d="M6 12H13M20 12H13M13 12V26" stroke="#0E1011" stroke-width="2"/>
+<path d="M18 0V2V2C18 4.20914 16.2091 6 14 6H12C9.79086 6 8 4.20914 8 2V2V0" stroke="#0E1011" stroke-width="2"/>
 </svg>

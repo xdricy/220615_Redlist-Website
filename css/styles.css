@@ -107,7 +107,10 @@ section {
     text-decoration: underline;
     text-underline-offset: 1px;
 }
-
+.mammals-overview .icon-description {
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}
 /* =============  BOX STYLES CLOSED ============= */
 
 /* ===================== BUTTON STYLES  ===================== */

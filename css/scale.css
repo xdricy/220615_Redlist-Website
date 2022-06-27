@@ -79,6 +79,9 @@
   }
 
  .b-nav-tab:hover {
-      background-color: var(--color-mainred);
+      background-color: var(--color-darkred);
       color: var(--color-white);
   }
+
+
+  
