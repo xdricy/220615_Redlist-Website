@@ -126,7 +126,10 @@ a:active {
 font-size: 1rem;
 font-weight: 700;
 }
-
+.arrow-scale {
+    font-size: .7rem;
+    padding-left: .5em;
+}
 /* ============= Mobile Styles ============= */
 
     @media (max-width:900px) {

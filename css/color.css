@@ -16,4 +16,34 @@
     --color-darkgreen: #43A35E;
 }
 
+.VU {
+    background-color: var(--color-salmon);
+    color: var(--color-black);
+}
+
+
+.CR {
+    background-color: var(--color-secondaryred);
+    color: var(--color-white);
+}
+
+.EN {
+    background-color: var(--color-mainred);
+    color: var(--color-white);
+}
+
+.NT {
+    background-color: var(--color-peach);
+}
+
+.LC {
+    background-color: var(--color-yellow);
+    color: var(--color-black);
+}
+
+.EX {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
 
