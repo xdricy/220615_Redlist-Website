@@ -87,9 +87,65 @@
             <!-- LEFT CLOSE -->
             <!-- RIGHT -->
             <!-- STATUS BOX -->
-            <div class="conservation-status box-spacing white-bg round-corner dropshadow">
+            <div class="conservation-status box-spacing white-bg round-corner dropshadow no-ma">
                <h4>Conservation Status <br /><span class="text-colored">Critically Endangered</span></h4>
-               <img src="images/detailpage/skala.svg" alt="conservation-scale">
+               <div class="round-corner-top white-bg">
+                  <!-- ================ SCALE SECTION ==================== -->
+                  <section class=" interactive-scale-section">
+
+                     <section class="step-indicator">
+                        <div class="step">
+                           <button data-tab="DD" class="b-nav-tab step-icon">DD
+                           </button>
+                        </div>
+                        <div class="indicator-line"></div>
+                        <div class="step">
+                           <button data-tab="LC" class="b-nav-tab step-icon">
+                              LC
+                           </button>
+                        </div>
+                        <div class="indicator-line"></div>
+                        <div class="step">
+                           <button data-tab="NT" class="b-nav-tab step-icon">
+                              NT
+                           </button>
+                        </div>
+                        <div class="indicator-line"></div>
+                        <div class="step">
+                           <button data-tab="VU" class="b-nav-tab step-icon">
+                              VU
+                           </button>
+                        </div>
+                        <div class="indicator-line"></div>
+                        <div class="step">
+                           <button data-tab="EN" class="b-nav-tab step-icon">
+                              EN
+                           </button>
+                        </div>
+                        <div class="indicator-line"></div>
+                        <div class="step">
+                           <button data-tab="CR" class=" b-nav-tab step-icon active-scale">
+                              CR
+                           </button>
+                        </div>
+                        <div class="indicator-line"></div>
+                        <div class="step">
+                           <button data-tab="EW" class="b-nav-tab step-icon">
+                              EW
+                           </button>
+                        </div>
+                        <div class="indicator-line"></div>
+                        <div class="step">
+                           <button data-tab="EX" class="b-nav-tab step-icon">
+                              EX
+                           </button>
+                        </div>
+                     </section>
+                     <div class="scale-description flex margin-bottom">
+                        <p> Least concern</p>
+                        <p> Extinct</p>
+                    </div>
+               </div>
             </div>
             <!-- STATUS BOX close-->
             <!-- ICON BOX -->
@@ -446,7 +502,7 @@
                   <img src="images/detailpage/javan-rhinoceros.jpg" alt="">
                   <div class="animal-card-info">
                      <div class="status-circle CR"> <strong>CR</strong></div>
-                     <p class="animal-card-indicator body-text"> Increasing</p>
+                     <p class="animal-card-indicator-green body-text"> Increasing</p>
                   </div>
                </div>
             </a>
@@ -476,7 +532,7 @@
                   <img src="images/detailpage/greater-one-horned-rhino.png" alt="">
                   <div class="animal-card-info">
                      <div class="status-circle VU"> <strong>VU</strong></div>
-                     <p class="animal-card-indicator body-text"> Increasing</p>
+                     <p class="animal-card-indicator-green body-text"> Increasing</p>
                   </div>
                </div>
             </a>
@@ -490,7 +546,7 @@
                <img src="images/detailpage/white-rhino.jpg" alt="">
                <div class="animal-card-info">
                   <div class="status-circle NT"> <strong>NT</strong></div>
-                  <p class="animal-card-indicator body-text"> Decreasing</p>
+                  <p class="animal-card-indicator-red body-text"> Decreasing</p>
                </div>
             </div>
 
@@ -505,7 +561,7 @@
                   <img src="images/detailpage/sumatran-rhinoceros.jpg" alt="">
                   <div class="animal-card-info">
                      <div class="status-circle CR"> <strong>CR</strong></div>
-                     <p class="animal-card-indicator body-text"> Decreasing</p>
+                     <p class="animal-card-indicator-red body-text"> Decreasing</p>
                   </div>
                </div>
             </a>

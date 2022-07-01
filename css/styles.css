@@ -38,9 +38,6 @@ button {
     padding: 6rem 0 1rem;
 }
 
-section {
-    margin-bottom: 6em;
-}
 
 .container {
     max-width: 1250px;
@@ -216,7 +213,7 @@ section {
 
 .footer .row a i {
     font-size: 2em;
-    margin: 2% 4%;
+    margin: 0em 0.5em;
 }
 
 @media (max-width:720px) {
