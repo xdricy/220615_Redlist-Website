@@ -9,22 +9,39 @@
     padding: 3em 1em 8em;
 }
 
+.animal-cards a{
+    transition: all 0.3s ease 0s;
+}
+
+.animal-cards a.dead .animal-card .no-image{
+    background: var(--color-black);
+    aspect-ratio: 3 / 2;
+    width: 100%;
+    margin-top:auto;
+}
+
+.animal-cards a.dead .animal-card-header{
+    opacity: 0.5;
+}
+
+.animal-cards a:hover {
+    transform: translateY(-7px);
+}
+
 .animal-card img {
     width: 100%;
+    margin-top:auto;
+    aspect-ratio: 3 / 2;
 }
 
 .animal-card {
     box-shadow: 0 0 1em rgba(0, 0, 0, .25);
     background: white;
-    transition: all 0.3s ease 0s;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.animal-card:hover {
-    transform: translateY(-7px);
+    height: 100%;
 }
 
 .animal-card-title {
