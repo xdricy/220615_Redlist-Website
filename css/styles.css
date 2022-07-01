@@ -96,7 +96,7 @@ button {
 }
 
 .icon-description {
-    padding-left: 1em; 
+    padding-left: 1em;
     white-space: nowrap;
 }
 
@@ -104,24 +104,28 @@ button {
     text-decoration: underline;
     text-underline-offset: 1px;
 }
+
 .mammals-overview .icon-description {
     text-decoration: underline;
     text-underline-offset: 1px;
 }
+
 /* =============  BOX STYLES CLOSED ============= */
 
 /* ===================== BUTTON STYLES  ===================== */
 
+
 .btn {
     font-size: 1.25rem;
     align-items: center;
-    justify-content: space-between;
+    width: fit-content;
     background-color: var(--color-black);
     padding: 1em 2em;
     border-radius: 30px;
     font-family: inherit;
     font-weight: 700;
     color: var(--color-white);
+
 }
 
 .btn-arrow {
