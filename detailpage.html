@@ -21,7 +21,7 @@
  ============================================================================= -->
    <header class="header" id="header">
       <nav class="navbar container">
-         <a href="./index.html"><img src="logo.svg" alt="Redlist Logo" s class="logo"></a>
+         <a href="./index.html"><img src="logo.svg" alt="Redlist Logo" class="logo"></a>
          <div class="burger" id="burger">
             <span class="burger-line"></span>
             <span class="burger-line"></span>
@@ -50,7 +50,7 @@
    <div class="breadcrumb nav-container">
       <a href="overview.html" class="bc-item"> Animals /</a>
       <a href="overview-mammals.html" class="bc-item"> Mammals /</a>
-      <a href="#" class="bc-item bc-item-current"> Black Rhino</p></a>
+      <a href="#" class="bc-item bc-item-current"> Black Rhino</a>
    </div>
 
    <div class="container">
@@ -60,10 +60,11 @@
             <h1 class="Animal"> Black Rhino</h1>
             <p class="latin-name"> Diceros bicornis</p>
          </div>
-         <div class="grid grid-detailpage">
+         <div class="grid grid-detailpage margin-bottom">
             <!-- LEFT -->
             <div class="animal-image-card round-corner white-bg dropshadow">
-               <img src="images/detailpage/black-rhino.jpg" alt="a black rhino in shrubland" class="img-animal round-corner-top">
+               <img src="images/detailpage/black-rhino.jpg" alt="a black rhino in shrubland"
+                  class="img-animal round-corner-top">
                <div class="box-spacing flex flex-column">
                   <div class="flex">
                      <div class="margin-right">
@@ -91,9 +92,9 @@
                <h4>Conservation Status <br /><span class="text-colored">Critically Endangered</span></h4>
                <div class="round-corner-top white-bg">
                   <!-- ================ SCALE SECTION ==================== -->
-                  <section class=" interactive-scale-section">
+                  <div class=" interactive-scale-section">
 
-                     <section class="step-indicator">
+                     <div class="step-indicator">
                         <div class="step">
                            <button data-tab="DD" class="b-nav-tab step-icon">DD
                            </button>
@@ -140,13 +141,19 @@
                               EX
                            </button>
                         </div>
-                     </section>
+                     </div>
                      <div class="scale-description flex margin-bottom">
                         <p> Least concern</p>
                         <p> Extinct</p>
-                    </div>
+                     </div>
+                  </div>
                </div>
+
             </div>
+
+
+
+
             <!-- STATUS BOX close-->
             <!-- ICON BOX -->
             <!-- icon box left -->
@@ -255,26 +262,23 @@
                <!-- ICON BOX close -->
                <!-- RIGHT CLOSE -->
             </div>
-
          </div>
       </section>
    </div>
+
    <div class="bg-change round-corner-top">
       <div class="container">
          <!--================== Animal Details Section Closed================== -->
 
 
-
-         </section>
-         <section class="animal-family">
-         </section>
          <button class="accordion init-show">Population</button>
          <div class="panel">
             <!-- ================== POPULATION ================== -->
-            <section class="animal-population round-corner-top white-bg">
+            <div class="animal-population round-corner-top white-bg">
                <div class="container">
 
-                  <img src="images/detailpage/population-graph.svg" alt="a graph showing the rhino population evolution">
+                  <img src="images/detailpage/population-graph.svg"
+                     alt="a graph showing the rhino population evolution">
                   <div class="flex-dsk">
                      <div class="col1">
                         <p class="figure-description">Continuous decline of mature individuals:</p>
@@ -313,7 +317,7 @@
                      </div>
                   </div>
                </div>
-            </section>
+            </div>
             <!-- ================== POPULATION CLOSED ================== -->
 
          </div>
@@ -321,7 +325,7 @@
          <button class="accordion init-show">Habitat</button>
          <div class="panel">
             <!-- ================== HABITAT ================== -->
-            <section class="animal-habitat white-bg">
+            <div class="animal-habitat white-bg">
                <div class="container">
                   <img src="images/detailpage/karte.svg" alt="a map of africa showing the habitats of black rhinos">
                   <div class="flex-dsk">
@@ -358,14 +362,14 @@
                      </div>
                   </div>
                </div>
-            </section>
+            </div>
             <!-- ================== HABITAT CLOSED ================== -->
          </div>
 
          <button class="accordion">Taxonomy / Threats / Use and Trade</button>
          <div class="panel">
             <!-- ================== TREATS & USE  ================== -->
-            <section class="animal-taxonomy white-bg">
+            <div class="animal-taxonomy white-bg">
                <div class="container">
                   <div class="flex-dsk">
                      <div class="col1">
@@ -433,43 +437,46 @@
                      </div>
                   </div>
                </div>
-            </section>
-            <!-- ================== TREATS & USE CLOSED ================== -->
-            <section class="animal-bibliography">
-
+            </div>
          </div>
-         <button class="accordion">Bibliography</button>
-         <div class="panel">
-            <p>Benson, C. W. 1960. The birds of the Comoro Islands: results of the British Ornithologists' Union
-               Centenary Expedition 1958. Ibis 103b: 5-106.
+         <!-- ================== TREATS & USE CLOSED ================== -->
+         <div class="animal-bibliography">
+            <button class="accordion">Bibliography</button>
+            <div class="panel">
+               <p>Benson, C. W. 1960. The birds of the Comoro Islands: results of the British Ornithologists' Union
+                  Centenary Expedition 1958. Ibis 103b: 5-106.
 
-               del Hoyo, J.; Elliott, A.; Christie, D. 2009. Handbook of the Birds of the World, vol. 14: Bush-shrikes
-               to Old World Sparrows. Lynx Edicions, Barcelona, Spain.
+                  del Hoyo, J.; Elliott, A.; Christie, D. 2009. Handbook of the Birds of the World, vol. 14:
+                  Bush-shrikes
+                  to Old World Sparrows. Lynx Edicions, Barcelona, Spain.
 
-               IUCN. 2016. The IUCN Red List of Threatened Species. Version 2016-3. Available at: www.iucnredlist.org.
-               (Accessed: 07 December 2016).
+                  IUCN. 2016. The IUCN Red List of Threatened Species. Version 2016-3. Available at:
+                  www.iucnredlist.org.
+                  (Accessed: 07 December 2016).
 
-               Louette, M.; Neri, F.; Stevens, J. 1993. Distribution et abondance des oiseaux forestiers de Mayotte
-               (Océan Indien). L'Oiseau et la Revue Française d'Ornithologie 63: 115-126.
+                  Louette, M.; Neri, F.; Stevens, J. 1993. Distribution et abondance des oiseaux forestiers de Mayotte
+                  (Océan Indien). L'Oiseau et la Revue Française d'Ornithologie 63: 115-126.
 
-               Louette, M.; Stevens, J.; Bijnens, L.; Janssens, L. 1988. Survey of the endemic avifauna of the Comoro
-               Islands. International Council for Bird Preservation, Cambridge, U.K.
+                  Louette, M.; Stevens, J.; Bijnens, L.; Janssens, L. 1988. Survey of the endemic avifauna of the Comoro
+                  Islands. International Council for Bird Preservation, Cambridge, U.K.
 
-               Rocamora, G. 2004. Les oiseaux des espaces naturels remarquables de Mayotte. Rapport SEF/DAF.
-               Collectivité de Mayotte. Available at:
-               #http://etic.univ-reunion.fr/get/images/Mayotte/mayotte_oiseaux.pdf#.
+                  Rocamora, G. 2004. Les oiseaux des espaces naturels remarquables de Mayotte. Rapport SEF/DAF.
+                  Collectivité de Mayotte. Available at:
+                  #http://etic.univ-reunion.fr/get/images/Mayotte/mayotte_oiseaux.pdf#.
 
-               Safford, R. J. 2001. Mayotte. In: Fishpool, L.D.C.; Evans, M.I. (ed.), Important Bird Areas in Africa and
-               associated islands: Priority sites for conservation, pp. 597-601. Pisces Publications and BirdLife
-               International (BirdLife Conservation Series No.11), Newbury and Cambridge, UK.
+                  Safford, R. J. 2001. Mayotte. In: Fishpool, L.D.C.; Evans, M.I. (ed.), Important Bird Areas in Africa
+                  and
+                  associated islands: Priority sites for conservation, pp. 597-601. Pisces Publications and BirdLife
+                  International (BirdLife Conservation Series No.11), Newbury and Cambridge, UK.
 
-               Safford, R. J.; Evans, M. I. 1992. Birds on the Comoro Islands, April 1990. Scopus 15: 93-101.
+                  Safford, R. J.; Evans, M. I. 1992. Birds on the Comoro Islands, April 1990. Scopus 15: 93-101.
 
-               Stevens, J.; Louette, M. 1999. Land bird abundance and the conservation of biodiversity on the island of
-               Mayotte (Indian Ocean). Alauda 67: 123-139.</p>
+                  Stevens, J.; Louette, M. 1999. Land bird abundance and the conservation of biodiversity on the island
+                  of
+                  Mayotte (Indian Ocean). Alauda 67: 123-139.</p>
 
+            </div>
          </div>
-
          <div class="divider"> </div>
 
          <!-- ANIMAL CARDS SECTION -->
@@ -608,11 +615,11 @@
       </div>
    </footer>
 
+   <!-- JS -->
+   <script src="./js/script.js"></script>
+
 
 </body>
 
-
-<!-- JS -->
-<script src="./js/script.js"></script>
 
 </html>
