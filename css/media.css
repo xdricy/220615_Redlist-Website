@@ -1,21 +1,22 @@
 img {
-    display: block;
-    object-fit: cover;
+  display: block;
+  object-fit: cover;
   max-width: 100%;
   height: auto;
   image-rendering: -webkit-optimize-contrast;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
- 
+
 }
 
 .img-animal {
-  width:100%;
+  width: 100%;
+  height: 45vh;
 }
 
-.svg-icon{
+.svg-icon {
 
-object-fit:contain;
+  object-fit: contain;
 }
 
 .no-image {
@@ -26,3 +27,16 @@ object-fit:contain;
   width: 100%;
 }
 
+
+.logo {
+  max-width: 60%;
+  align-self: center;
+  margin: 0 auto;
+}
+
+@media (min-width: 48rem) {
+  .logo {
+    align-self: left;
+    margin: 0;
+  }
+}

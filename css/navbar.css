@@ -218,5 +218,5 @@ color: var(--color-mainred)
 .bc-item-current {
     color: var(--color-black);
     font-weight: 600;
-    margin:0
+    margin:0;
 }

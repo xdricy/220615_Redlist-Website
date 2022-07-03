@@ -41,10 +41,11 @@ button {
 
 .container {
     max-width: 1250px;
-    margin: auto;
-    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 1.25rem;
 }
+
 
 @media (min-width: 899px) {
     .container {
@@ -91,8 +92,12 @@ button {
     display: flex;
 }
 
+.icon-box-wrapper {
+    height: fit-content
+}
+
 .icon-box {
-    margin-right: 2em;
+    margin-right: 3.5em;
 }
 
 .icon-description {
@@ -121,7 +126,7 @@ button {
     width: fit-content;
     background-color: var(--color-black);
     padding: 1em 2em;
-    border-radius: 30px;
+    border-radius: 50px;
     font-family: inherit;
     font-weight: 700;
     color: var(--color-white);

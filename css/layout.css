@@ -38,6 +38,10 @@
     padding-top: 2em;
 }
 
+.padding-bottom {
+    padding-bottom: 2em;
+}
+
 /* Detailpage population Section */
 .animal-population {
     padding: 4em 0;
@@ -67,29 +71,37 @@
 }
 
 /* ================ Newscard-Styles ================ */
-.newscard {
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 2em;
+.newscard-wrapper {
+    padding-bottom: 5em;
 }
 
 .newscard-title {
     font-weight: 700;
-    margin-bottom: 1em;
+    padding: 1em 0em;
 }
+ 
 
 .newscard-text {
     margin-bottom: 1em;
 }
 
 .newscard-content {
-    padding: 1.5em;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    
 }
+
+.newscard-title, .newscard-text, .newscard-link {
+    padding: 0 1em;
+}
+
 
 .link-centered {
     text-align: center;
     display: block;
-    padding: 2rem ;
+    padding: 2rem;
     text-decoration: underline;
     text-underline-offset: 2px;
 }
@@ -98,7 +110,6 @@
 
 
 .about-section {
-    margin-top: 5em;
     background-color: var(--color-black);
     color: var(--color-white);
 }
@@ -111,12 +122,12 @@
 
 /* ================ ANIMALS SECTION ================ */
 .animals-section {
-    background-color: var(--color-salmon);
+   
     color: var(--color-black);
 }
 
 .bg-accent {
-    background-color: var(--color-salmon);
+    background-color: var(--color-white);
 }
 
 .flex-section .animal-cards {
@@ -125,13 +136,19 @@
     justify-content: center;
 }
 
-.flex-section .animal-card {
-    max-width: 250px;
-}
+
+
 
 /* ================ SUPPORT SECTION ================ */
 .support-section {
-    background-color: var(--color-white);
+    padding: 2em 0;
+    margin: 5em auto 0;
+    text-align: center;
+}
+
+.support-section .btn {
+
+    margin: 2em auto 0;
 }
 
 
@@ -146,13 +163,15 @@
     min-height: 300px;
     cursor: pointer;
 }
+
 .featured-animal-card:hover {
-transform: translateY(-7px);
-transition: all 0.3s ease 0s;
+    transform: translateY(-7px);
+    transition: all 0.3s ease 0s;
 }
 
 .aside-species,
-.aside-habitat, .aside-habitat-2 {
+.aside-habitat,
+.aside-habitat-2 {
     padding: 1em;
 }
 
@@ -180,25 +199,27 @@ transition: all 0.3s ease 0s;
     background-image: url("../images/overviewpage-mammals/mountain-goat.jpg");
     background-repeat: no-repeat;
 }
+
 .animal-mammals {
-   width: 100%;
+    width: 100%;
 }
 
 .aside-habitat-2 {
     min-width: 200px;
     margin-right: 2em;
 }
+
 .grid-overview {
     display: block;
 }
 
-@media (max-width: 899px){
+@media (max-width: 899px) {
     .mammals-overview {
         flex-direction: column;
     }
 
 
-    
+
     .aside-habitat-2 {
         width: 100%;
         margin-right: 0em;
@@ -300,7 +321,7 @@ transition: all 0.3s ease 0s;
     .grid-newscard {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-gap: 1em;
+        grid-gap: 1.5em;
         margin-top: 2em;
         /* padding: 3em 1em 8em; */
     }
@@ -318,6 +339,13 @@ transition: all 0.3s ease 0s;
     .flex-section-img {
         flex: 1 0 50%;
         align-items: center;
+    }
+.animals-section .flex-section-content {
+        order:1;
+    }
+    
+    .animals-section .flex-section-img {
+        order: 2;
     }
 }
 

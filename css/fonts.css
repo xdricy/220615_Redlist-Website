@@ -43,9 +43,9 @@ h4 {
 a {
     color: var(--color-black);
 }
-/* a:hover {
+a:hover {
     color: var(--color-mainred);
-} */
+}
 a:active {
     color: var(--color-darkred);
 }

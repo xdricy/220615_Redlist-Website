@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 1.5em;
-    padding: 3em 1em 8em;
+    padding: 3em 1em 3em;
 }
 
 .animal-cards a{
@@ -46,7 +46,9 @@
 
 .animal-card-title {
     font-size: 1.5rem;
+    line-height: 1.22em;
     color: #000;
+    margin-bottom: .5em;
 }
 
 .animal-card-header {
@@ -99,7 +101,7 @@
 color: var(--color-black);
 }
 /* ================ grid styles ================ */
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
 
     .grid {
         display: grid;
@@ -125,6 +127,7 @@ color: var(--color-black);
 
     .animal-fact-box {
         margin-top: 0em;
+    
     }
 
     .animal-image-card {
