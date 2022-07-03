@@ -20,9 +20,9 @@
     margin-top:auto;
 }
 
-.animal-cards a.dead .animal-card-header{
+/* .animal-cards a.dead {
     opacity: 0.5;
-}
+} */
 
 .animal-cards a:hover {
     transform: translateY(-7px);
