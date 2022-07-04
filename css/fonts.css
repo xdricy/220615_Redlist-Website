@@ -46,6 +46,10 @@ a {
 a:hover {
     color: var(--color-mainred);
 }
+
+.no-hover:hover {
+color: var(--color-white);
+}
 a:active {
     color: var(--color-darkred);
 }
