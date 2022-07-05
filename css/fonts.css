@@ -47,9 +47,6 @@ a:hover {
     color: var(--color-mainred);
 }
 
-.no-hover:hover {
-color: var(--color-white);
-}
 a:active {
     color: var(--color-darkred);
 }
@@ -125,15 +122,24 @@ a:active {
     text-underline-offset: 3px;
 }
 
-
 .featured-animal-subheading {
 font-size: 1rem;
 font-weight: 700;
 }
+
 .arrow-scale {
     font-size: .7rem;
     padding-left: .5em;
 }
+
+.limited-text {
+    max-width: 1200px;
+    text-align: center;
+    white-space: pre-line;
+    margin: 0 auto;
+}
+
+
 /* ============= Mobile Styles ============= */
 
     @media (max-width:900px) {
